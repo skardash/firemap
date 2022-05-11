@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 22px;
+}
+
+.content {
+  display: flex;
+  /* align-items: center; */
+  padding: 50px 30px;
+  /* height: 300px; */
+  border: 1px solid #bfbfbf;
+  /* vertical-align:middle; */
+}
+
+
+
+.left-menu ul {
+  /* display: flex; */
+  list-style-type: none;
+  /* margin-left: auto;
+  margin-right: auto */
+  /* height: 300px; */
+
+  /* border: 1px solid #bfbfbf; */
+  /* height: 50vh; */
+}
+
+/* .left-menu li:not(:last-child) {
+  border-bottom: 1px solid #bfbfbf;
+} */
+
+div {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.left-menu {
+  display: table-cell;
+  vertical-align: middle;
+  overflow-y: scroll;
+  width: 30%;
+  height: 50vh;
+  flex-shrink: 0;
+  /* border: 1px solid #bfbfbf; */
+}
+
+.left-menu a {
+  display: block;
+  padding: 10px;
+  color: #333;
+}
+
+.left-menu::-webkit-scrollbar {
+  width: 10px;
+  background-color: #f9f9fd;
+}
+
+.left-menu::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #18aaaa;
+}
+
+.left-menu::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  background-color: #f9f9fd;
+}
+
+a {
+  text-decoration: none;
+}
+
+.map {
+  width: 100%;
+  height: 50vh;
+  /* padding-left: 30px; */
+}
+
+.map svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  transition: all 0.15s;
+}
+
+.map a {
+  transition: all 0.15s;
+}
+
+.active {
+  background-color: #bfbfbf;
+  transition: all 0.15s;
+}
+
+.info {
+  padding: 30px 100px;
+  padding-bottom: 50px;
+  /* width: 100%;  */
+  width: 100vw;
+  /* max-width: 100%; */
+  /* border: 1px solid #bfbfbf; */
+}
+
+.info h2 {
+  margin-bottom: 20px;
+}
+
+#svg_south {
+  display: none;
+}
+
+#svg_northwest {
+  display: none;
+}
+
+#svg_sevkav {
+  display: none;
+}
+
+#svg_center {
+  display: none;
+}
+
+#svg_privol {
+  display: none;
+}
+
+#svg_ural {
+  display: none;
+}
+
+#svg_sibir {
+  display: none;
+}
+
+#svg_daln {
+  display: none;
+}
+
+
+/* svg {
+  border: 1px solid #bfbfbf;
+} */
+
+#rightcol {
+  text-align: center;
+}
+
+canvas {
+  margin: auto;
+}
