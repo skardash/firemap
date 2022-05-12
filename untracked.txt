@@ -1,0 +1,7 @@
+just new untracked file
+still some changes
+new modification
+and here we are again!
+this change 
+and that change
+yep and this will be added too
